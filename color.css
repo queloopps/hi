@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+}
+.col{
+    /* border: 1px solid black; */
+    outline: none;
+    flex: 1;
+    display: flex;
+    background-color: rgb(58, 1, 1);
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+h2{
+    padding: 10px;
+    color:aliceblue;
+    border-radius: 10px;
+    transition: background 0.3s ;
+}
+.col h2:hover{
+    background: rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+.col button{
+    border: none;
+    background: transparent;
+    font-size: 1.5rem;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background 0.3s ;
+} .col button:hover{
+    background: rgba(0,0,0,0.1);
+    cursor: pointer;
+} 
